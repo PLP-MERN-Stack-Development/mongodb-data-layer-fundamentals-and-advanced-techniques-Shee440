@@ -30,8 +30,8 @@ Before running this project, make sure you have:
 
 - `insert_books.js` – Script used to insert all books into the MongoDB collection.  
 - `queries.js` – Script used to query and aggregate the data.  
-- `README.md` – Documentation explaining the setup and usage.  
-- `screenshot1.png`, `screenshot2.png`, etc. – Screenshots showing MongoDB Compass outputs.
+- `README.md` – Documentation explaining the setup and usage.
+-  Screenshots showing MongoDB Compass outputs.
 
 ---
 
@@ -39,7 +39,8 @@ Before running this project, make sure you have:
 
 ### Step 1: Start MongoDB Server
 Make sure your MongoDB service is running locally.  
-You can check this by typing the following in your terminal or command prompt:```bash mongod
+You can check this by typing the following in your terminal or command prompt:```bash
+mongod
 
 ### Step 2: Open MongoDB Compass
 1. Launch **MongoDB Compass**.  
@@ -51,7 +52,9 @@ You can check this by typing the following in your terminal or command prompt:``
 
 ## Step 3: Insert Data
 1. Open **Visual Studio Code** or any terminal.  
-2. Run the script below to insert the sample data:```bash node insert_books.js
+2. Run the script below to insert the sample data:
+
+node insert_books.js
 
 
 This will insert all the book documents into the **books** collection in your **bookstore** database.
