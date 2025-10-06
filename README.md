@@ -70,14 +70,14 @@ You can also experiment with queries and aggregation pipelines inside **MongoDB 
 Below are the required screenshots showing the project working in MongoDB Compass.
 
 ### Screenshot 1: Books Collection in MongoDB Compass
-![Books collection in MongoDB Compass](screenshot10.png)
+![Books collection in MongoDB Compass](screenshot(10).png)
 
 ### Screenshot 2: Queries Results
-![Query results showing books per title and author](screenshot11.png)
+![Query results showing books per title and author](screenshot(11).png)
 
 ### Screenshot 3 : Aggregation Results
-![Aggregation results showing total books per author](screenshot12.png)
-![Aggregation results showing total books per published_year](screenshot13.png)
+![Aggregation results showing total books per author](screenshot(12).png)
+![Aggregation results showing total books per published_year](screenshot(13).png)
 
 
 ## Step 7: Summary
