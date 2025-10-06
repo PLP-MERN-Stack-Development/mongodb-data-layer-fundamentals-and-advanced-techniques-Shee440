@@ -40,8 +40,6 @@ Before running this project, make sure you have:
 ### Step 1: Start MongoDB Server
 Make sure your MongoDB service is running locally.  
 You can check this by typing the following in your terminal or command prompt:
-```bash
-mongod
 
  Step 2: Open MongoDB Compass
 1. Launch **MongoDB Compass**.  
