@@ -1,59 +1,98 @@
-# MongoDB Fundamentals - Week 1
+# 📚 MongoDB Bookstore Project
 
-## Setup Instructions
+This project demonstrates how to create and manage a simple **Bookstore Database** using **MongoDB**.  
+It includes inserting book data, running queries, and performing aggregation operations using **MongoDB Compass**, **MongoDB Shell (mongosh)**, and **Node.js scripts**.
 
-Before you begin this assignment, please make sure you have the following installed:
+---
 
-1. **MongoDB Community Edition** - [Installation Guide](https://www.mongodb.com/docs/manual/administration/install-community/)
-2. **MongoDB Shell (mongosh)** - This is included with MongoDB Community Edition
-3. **Node.js** - [Download here](https://nodejs.org/)
+## 🧠 Project Overview
 
-### Node.js Package Setup
+The purpose of this project is to practice MongoDB operations such as:
 
-Once you have Node.js installed, run the following commands in your assignment directory:
+- Inserting multiple book documents
+- Querying data
+- Using aggregation pipelines
+- Displaying results in MongoDB Compass
 
+---
+
+## ⚙️ Requirements
+
+Before running this project, make sure you have:
+
+- **Node.js** installed  
+- **MongoDB** installed and running locally  
+- **MongoDB Compass** (for graphical interaction)
+
+---
+
+## 📂 Files in This Project
+
+- `insert_books.js` – Script used to insert all books into the MongoDB collection.  
+- `queries.js` – Script used to query and aggregate the data.  
+- `README.md` – Documentation explaining the setup and usage.  
+- `screenshot1.png`, `screenshot2.png`, etc. – Screenshots showing MongoDB Compass outputs.
+
+---
+
+## 🚀 How to Run the Scripts
+
+### Step 1: Start MongoDB Server
+Make sure your MongoDB service is running locally.  
+You can check this by typing the following in your terminal or command prompt:
 ```bash
-# Initialize a package.json file
-npm init -y
+mongod
 
-# Install the MongoDB Node.js driver
-npm install mongodb
-```
+ Step 2: Open MongoDB Compass
+1. Launch **MongoDB Compass**.  
+2. Connect to your local database using the default connection string: **mongodb://localhost:27017**
 
-## Assignment Overview
+3. Create a new database called **bookstore**.  
+4. Inside it, create a collection named **books**.
 
-This week focuses on MongoDB fundamentals including:
-- Creating and connecting to MongoDB databases
-- CRUD operations (Create, Read, Update, Delete)
-- MongoDB queries and filters
-- Aggregation pipelines
-- Indexing for performance
+## Step 3: Insert Data
+1. Open **Visual Studio Code** or any terminal.  
+2. Run the script below to insert the sample data: node insert_books.js
 
-## Submission
+This will insert all the book documents into the **books** collection in your **bookstore** database.
 
-Complete all the exercises in this assignment and push your code to GitHub using the provided GitHub Classroom link.
+## Step 4: Running Queries and Aggregations
+To run all the queries:node queries.js
 
-## Getting Started
+You can also experiment with queries and aggregation pipelines inside **MongoDB Compass** using the *Filter* and *Aggregation* tabs.
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install MongoDB locally or set up a MongoDB Atlas account
-4. Run the provided `insert_books.js` script to populate your database
-5. Complete the tasks in the assignment document
+## Step 5: Example Queries Performed
+- Find all books that are in stock and published after 2010  
+- Find all books by a particular author  
+- Display only book titles and authors  
+- Group books by author and count the total number of books  
+- Sort books based on their publication year
 
-## Files Included
+## Step 6: Screenshots
+Below are the required screenshots showing the project working in MongoDB Compass.
 
-- `Week1-Assignment.md`: Detailed assignment instructions
-- `insert_books.js`: Script to populate your MongoDB database with sample book data
+### Screenshot 1: Books Collection in MongoDB Compass
+![Books collection in MongoDB Compass](screenshot10.png)
 
-## Requirements
+### Screenshot 2: Queries Results
+![Query results showing books per title and author](screenshot11.png)
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- MongoDB Shell (mongosh) or MongoDB Compass
+### Screenshot 3 : Aggregation Results
+![Aggregation results showing total books per author](screenshot12.png)
+![Aggregation results showing total books per published_year](screenshot13.png)
 
-## Resources
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [MongoDB University](https://university.mongodb.com/)
-- [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+## Step 7: Summary
+This project helped in understanding:
+- How to use MongoDB Compass and mongosh  
+- How to insert and query data  
+- How to perform data aggregation using the `$group` and `$sum` operators  
+- How to visualize MongoDB data effectively
+
+## Step 8: Author
+**Sheila Mumbi**  
+MongoDB Practice Project (Bookstore Database)
+
+
+
+
