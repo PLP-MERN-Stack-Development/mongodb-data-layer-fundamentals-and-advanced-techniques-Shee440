@@ -39,8 +39,7 @@ Before running this project, make sure you have:
 
 ### Step 1: Start MongoDB Server
 Make sure your MongoDB service is running locally.  
-You can check this by typing the following in your terminal or command prompt:```bash
-mongod
+You can check this by typing the following in your terminal or command prompt:`mongod`
 
 ### Step 2: Open MongoDB Compass
 1. Launch **MongoDB Compass**.  
@@ -53,9 +52,7 @@ mongod
 ## Step 3: Insert Data
 1. Open **Visual Studio Code** or any terminal.  
 2. Run the script below to insert the sample data:
-
-node insert_books.js
-
+`node insert_books.js`
 
 This will insert all the book documents into the **books** collection in your **bookstore** database.
 
@@ -91,7 +88,6 @@ Aggregation results showing total books per author
 
 Aggregation results showing total books per published_year
 <img width="1653" height="864" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/0a4e8bae-5c68-4e47-9302-617bd5371cd4" />
-
 
 
 ## Step 7: Summary
