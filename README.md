@@ -46,7 +46,7 @@ You can check this by typing the following in your terminal or command prompt:`m
 2. Connect to your local database using the default connection string:
  **mongodb://localhost:27017**
 
-3. Create a new database called **bookstore**.  
+3. Create a new database called **plp_bookstore**.  
 4. Inside it, create a collection named **books**.
 
 ## Step 3: Insert Data
@@ -77,7 +77,7 @@ Books collection in MongoDB Compass
 
 
 ### Screenshot 2: Queries Results
-Query results showing books per title and author
+Query results showing books per title,author and price
 <img width="1654" height="778" alt="Screenshot (11)" src="https://github.com/user-attachments/assets/91f3cfef-1f24-42b5-96d3-f162c65d67e9" />
 
 
