@@ -57,7 +57,7 @@ You can check this by typing the following in your terminal or command prompt:`m
 This will insert all the book documents into the **books** collection in your **bookstore** database.
 
 ## Step 4: Running Queries and Aggregations
-To run all the queries:```bash node queries.js
+To run all the queries:`node queries.js`
 
 You can also experiment with queries and aggregation pipelines inside **MongoDB Compass** using the *Filter* and *Aggregation* tabs.
 
